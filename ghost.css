@@ -1,1 +1,57 @@
+body {
+    text-align: center;
+    font-size: small;
+    color: black;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.opus:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.infesti:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+.ifyou:hover {
+    background-color: burlywood;
+    color: black;
+}
+
+.meliora:hover {
+    background-color: black;
+    color: palegreen;
+}
+
+.popestar:hover {
+    background-color: darkkhaki;
+    color: black;
+}
+
+.prequelle:hover {
+    background-color: sienna;
+    color: white;
+}
+
+.seveninches:hover {
+    background-color: wheat;
+    color: blue;
+}
+
+.impera:hover {
+    background-color: lightcyan;
+    color: goldenrod;
+}
+
+.phanton:hover {
+    background-color: teal;
+    color: white;
+}
+
+.skeleta:hover {
+    background-color: black;
+    color: white;
+}
