@@ -4,11 +4,34 @@
 .header {
     background: rgb(96, 3, 96);
     color: white;
-    padding: 18px 18px;
+    padding: 8px 8px;
     margin: 0;
     font-family: "Sekuya", system-ui;
     font-weight: 400;
     font-style: normal;
+}
+
+.btn-voltar {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #333;
+    font-family: sans-serif;
+    font-size: 14px;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+.btn-voltar:hover {
+    background-color: #b30000;
+    border-color: #ff0000;
+    cursor: pointer;
 }
 
 .who {
