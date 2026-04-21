@@ -1,59 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sekuya&display=swap');
+
+.header {
+    background: rgb(96, 3, 96);
+    color: white;
+    padding: 18px 18px;
+    margin: 0;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    background-color: #b30000;
+    transform: scale(1.05);
+}
+
+.descricao {
+    background-color: black;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    padding: 6px 6px;
+}
+
 body {
     text-align: center;
     font-size: small;
     color: black;
-    background-color: aliceblue;
+    background: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.disco {
+    background: rgb(96, 3, 96);
+    color: white;
+    font-family: "Rubik", sans-serif;
+    padding: 4px 4px;
+}
+
+.discografia {
+    background: rgb(96, 3, 96);
+    color: white;
+    font-family: "Rubik", sans-serif;
+    padding: 6px 6px;
+}
+
+.info {
+    background-color: black;
+    color: white;
+    padding: 6px 6px;
+}
+
+.albuns {
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 2%;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.item-album img {
+    transition: transform 0.3s ease;
+}
+
+.item-album img:hover {
+    transform: scale(1.1);
+}
+
+.item-album p {
+    font-size: 12px;
+}
+
+li {
+    font-family: "Fredoka", sans-serif;
+    font-size: medium;
+}
+
+button {
+    cursor: pointer;
 }
 
 .opus:hover {
     background-color: darkcyan;
     color: white;
+    cursor: pointer;
 }
 
-.infesti:hover {
+.infestissumam:hover {
     background-color: chocolate;
     color: white;
+    cursor: pointer;
 }
 
 .ifyou:hover {
     background-color: burlywood;
     color: black;
+    cursor: pointer;
 }
 
 .meliora:hover {
     background-color: black;
     color: palegreen;
+    cursor: pointer;
 }
 
 .popestar:hover {
     background-color: darkkhaki;
     color: black;
+    cursor: pointer;
 }
 
 .prequelle:hover {
     background-color: sienna;
     color: white;
+    cursor: pointer;
 }
 
 .seveninches:hover {
     background-color: wheat;
     color: blue;
+    cursor: pointer;
 }
 
 .impera:hover {
     background-color: lightcyan;
     color: goldenrod;
+    cursor: pointer;
 }
 
 .phanton:hover {
     background-color: teal;
     color: white;
+    cursor: pointer;
 }
 
 .skeleta:hover {
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 footer {
