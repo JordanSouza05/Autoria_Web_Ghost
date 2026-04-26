@@ -48,7 +48,7 @@
 
 .container-formulario h2 {
     text-align: center;
-    color: #b30000;
+    color: rgb(192, 9, 192);
     margin-bottom: 20px;
 }
 
@@ -80,7 +80,7 @@
 .btn-enviar {
     width: 100%;
     padding: 12px;
-    background-color: #b30000;
+    background-color: rgb(96, 3, 96);
     color: white;
     border: none;
     border-radius: 5px;
@@ -92,7 +92,7 @@
 }
 
 .btn-enviar:hover {
-    background-color: #ff0000;
+    background-color: rgb(155, 7, 155);
     transform: translateY(-2px);
 }
 
