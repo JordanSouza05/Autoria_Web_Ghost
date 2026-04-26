@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div>
+    <header class="header">
+        <h1>FORMULÁRIO</h1>
+        <a href="ghost.html" class="btn-voltar">← Voltar</a>
+    </div>
+        <section class="container-formulario">
+    <h2>Registro do Clero</h2>
+    <p>Preencha suas informações de fã abaixo:</p>
+
+    <form action="#">
+        <div class="campo">
+            <label for="album">Álbum Favorito:</label>
+            <input type="text" id="album" name="album" placeholder="Ex: Meliora">
+        </div>
+
+        <div class="campo">
+            <label for="musica">Música Favorita:</label>
+            <input type="text" id="musica" name="musica" placeholder="Ex: Cirice">
+        </div>
+
+        <div class="campo">
+            <label for="papa-select">Seu Papa Favorito:</label>
+            <select id="papa-select" name="papa-favorito">
+                <option value="emeritus1">Papa Emeritus I</option>
+                <option value="emeritus2">Papa Emeritus II</option>
+                <option value="emeritus3">Papa Emeritus III</option>
+                <option value="copia">Cardinal Copia</option>
+                <option value="emeritus4">Papa Emeritus IV</option>
+                <option value="perpetua">V Perpetua</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="anos">Há quantos anos escuta a banda?</label>
+            <input type="number" id="anos" name="anos" min="0" max="20">
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar Ritual</button>
+        <button type="reset" class="btn-limpar">Limpar Dados</button>
+    </form>
+        </section>
+    </header>
+</body>
+</html>
