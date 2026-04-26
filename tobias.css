@@ -29,8 +29,9 @@
 }
 
 .btn-voltar:hover {
-    background-color: #b30000;
-    border-color: #ff0000;
+    background-color: white;
+    color: black;
+    border-color: rgb(96, 3, 96);
     cursor: pointer;
 }
 
