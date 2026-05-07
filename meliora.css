@@ -1,32 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
+body {
+    background-color: black;
+}
+
 h1 {
-    background: black;
-    color: palegreen;
+    background: darkgreen;
+    color: black;
     padding: 8px 8px;
     text-align: center;
     font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
 }
 
+.h2 {
+    font-family: "Rubik", sans-serif;
+}
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    color: white;
 }
 
 ol {
     text-align: center;
     list-style-position: inside;
+    color: white;
+    font-family: "Rubik", sans-serif;
 }
 
 .btn-voltar {
     position: absolute;
-    top: 30px;
+    top: 15px;
     left: 20px;
-    
-    background-color: darkgreen;
+    background-color: black;
     color: white;
     padding: 10px 15px;
     text-decoration: none;
@@ -51,5 +61,5 @@ ol {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    border: 4px solid #333;
+    border: 4px solid white;
 }
