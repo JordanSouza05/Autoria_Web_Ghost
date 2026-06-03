@@ -5,19 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Popestar</title>
     <link rel="stylesheet" href="popestar.css">
+    <script src="ghost.js" defer></script>
 </head>
 <body>
     <h1>Popestar (2016)</h1>
     <a href="ghost.html" class="btn-voltar">← Voltar</a>
-    <h2>Liderado pelo hit "Square Hammer", este EP serve como uma extensão brilhante e glamorosa da era Meliora, consolidando o Ghost como uma potência do rock de arena.</h2>
-    <img class="capa" src="Popestar.jpg" alt="" width="300">
-    <h2>Tracklist</h2>
-    <ol>
-        <li>Square Hammer</li>
-        <li>Nocturnal Me (Cover de Echo & The Bunnymen)</li>
-        <li>I Believe (Cover de Simian Mobile Disco)</li>
-        <li>Missionary Man (Cover de Eurythmics)</li>
-        <li>Bible (Cover de Imperiet)</li>
-    </ol>
+    <h2 class="h2">Liderado pelo hit "Square Hammer", este EP serve como uma extensão brilhante e glamorosa da era Meliora, consolidando o Ghost como uma potência do rock de arena.</h2>
+    
+    <div class="layout-principal">
+        
+        <div class="bloco-midia">
+            <img class="capa" src="Popestar.jpg" alt="Capa do EP Popestar" width="300">
+        </div>
+
+        <div class="bloco-tracklist">
+            <h2>Tracklist</h2>
+            <ol>
+                <li>Square Hammer</li>
+                <li>Nocturnal Me (Cover de Echo & The Bunnymen)</li>
+                <li>I Believe (Cover de Simian Mobile Disco)</li>
+                <li>Missionary Man (Cover de Eurythmics)</li>
+                <li>Bible (Cover de Imperiet)</li>
+            </ol>
+        </div>
+
+        <div class="bloco-pendentes">
+            <h2>Músicas Pendentes</h2>
+            <p id="mensagem"></p>
+            
+            <div class="input-container">
+                <input type="text" id="inputMusica" placeholder="Ex: Bible">
+                <button id="btnAdicionar">Adicionar</button>
+            </div>
+
+            <ul id="listaMestas"></ul>
+
+            <button id="btnLimparTudo" class="btn btn--danger-total">Limpar Todas as Músicas</button>
+        </div>
+
+    </div>
 </body>
 </html>
