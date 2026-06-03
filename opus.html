@@ -5,24 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opus Eponymous</title>
     <link rel="stylesheet" href="opus.css">
+    <script src="ghost.js" defer></script>
 </head>
 <body>
     <h1>Opus Eponymous (2010)</h1>
     <a href="ghost.html" class="btn-voltar">← Voltar</a>
     <h2 class="h2">Onde tudo começou. Um álbum que mistura o Doom Metal clássico com melodias pop sombrias, apresentando ao mundo o Papa Emeritus I e o ritual satânico da banda.</h2>
-    <img class="capa" src="Opus_eponymous.jpg" alt="" width="300">
     
-    <h2>Tracklist</h2>
-        <ol>
-            <li>Deus Culpa</li>
-            <li>Con Clavi Con Dio</li>
-            <li>Ritual</li>
-            <li>Elizabeth</li>
-            <li>Stand by Him</li>
-            <li>Satan Prayer</li>
-            <li>Death Knell</li>
-            <li>Prime Mover</li>
-            <li>Genesis</li>
-        </ol>
+    <div class="layout-principal">
+        
+        <div class="bloco-midia">
+            <img class="capa" src="Opus_eponymous.jpg" alt="Capa do álbum Opus Eponymous" width="300">
+        </div>
+
+        <div class="bloco-tracklist">
+            <h2>Tracklist</h2>
+            <ol>
+                <li>Deus Culpa</li>
+                <li>Con Clavi Con Dio</li>
+                <li>Ritual</li>
+                <li>Elizabeth</li>
+                <li>Stand by Him</li>
+                <li>Satan Prayer</li>
+                <li>Death Knell</li>
+                <li>Prime Mover</li>
+                <li>Genesis</li>
+            </ol>
+        </div>
+
+        <div class="bloco-pendentes">
+            <h2>Músicas Pendentes</h2>
+            <p id="mensagem"></p>
+            
+            <div class="input-container">
+                <input type="text" id="inputMusica" placeholder="Ex: Ritual">
+                <button id="btnAdicionar">Adicionar</button>
+            </div>
+
+            <ul id="listaMestas"></ul>
+
+            <button id="btnLimparTudo" class="btn btn--danger-total">Limpar Todas as Músicas</button>
+        </div>
+
+    </div>
 </body>
 </html>
