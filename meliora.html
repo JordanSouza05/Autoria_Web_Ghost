@@ -5,24 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meliora</title>
     <link rel="stylesheet" href="meliora.css">
+    <script src="ghost.js" defer></script>
 </head>
 <body>
     <h1>Meliora (2015)</h1>
     <a href="ghost.html" class="btn-voltar">← Voltar</a>
-    <h2>Considerado por muitos a obra-prima da banda. Sob o comando do Papa Emeritus III, o som se torna mais pesado, futurista e focado em uma crítica à ausência de Deus na sociedade moderna.</h2>
-    <img class="capa" src="meliora.jpg" alt="" width="300">
-    <h2>Tracklist</h2>
-    <ol>
-        <li>Spirit</li>
-        <li>From The Pinnacle To The Pit</li>
-        <li>Cirice</li>
-        <li>Spoksonat</li>
-        <li>He Is</li>
-        <li>Mummy Dust</li>
-        <li>Majesty</li>
-        <li>Devil Church</li>
-        <li>Absolution</li>
-        <li>Deus In Absentia</li>
-    </ol>
+    <h2 class="h2">Considerado por muitos a obra-prima da banda. Sob o comando do Papa Emeritus III, o som se torna mais pesado, futurista e focado em uma crítica à ausência de Deus na sociedade moderna.</h2>
+    
+    <div class="layout-principal">
+        
+        <div class="bloco-midia">
+            <img class="capa" src="meliora.jpg" alt="Capa do álbum Meliora" width="300">
+        </div>
+
+        <div class="bloco-tracklist">
+            <h2>Tracklist</h2>
+            <ol>
+                <li>Spirit</li>
+                <li>From The Pinnacle To The Pit</li>
+                <li>Cirice</li>
+                <li>Spoksonat</li>
+                <li>He Is</li>
+                <li>Mummy Dust</li>
+                <li>Majesty</li>
+                <li>Devil Church</li>
+                <li>Absolution</li>
+                <li>Deus In Absentia</li>
+            </ol>
+        </div>
+
+        <div class="bloco-pendentes">
+            <h2>Músicas Pendentes</h2>
+            <p id="mensagem"></p>
+            
+            <div class="input-container">
+                <input type="text" id="inputMusica" placeholder="Ex: Mummy Dust">
+                <button id="btnAdicionar">Adicionar</button>
+            </div>
+
+            <ul id="listaMestas"></ul>
+
+            <button id="btnLimparTudo" class="btn btn--danger-total">Limpar Todas as Músicas</button>
+        </div>
+
+    </div>
 </body>
 </html>
