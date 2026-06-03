@@ -5,19 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>If You Have Ghost</title>
     <link rel="stylesheet" href="ifyhg.css">
+    <script src="ghost.js" defer></script>
 </head>
 <body>
     <h1>If You Have Ghost (2013)</h1>
     <a href="ghost.html" class="btn-voltar">← Voltar</a>
-    <h2>Um mergulho em releituras. Este EP de covers, produzido por Dave Grohl, mostra a versatilidade da banda ao transformar clássicos de artistas como ABBA e Depeche Mode em hinos ocultistas.</h2>
-    <img class="capa" src="If_You_Have_Ghost.jpg" alt="" width="300">
-    <h2>Tracklist</h2>
-    <ol>
-        <li>If You Have Ghosts (Cover de Rocky Erickson)</li>
-        <li>I'm A Marionette (Cover de ABBA)</li>
-        <li>Crucified (Cover de Army of Lovers)</li>
-        <li>Waiting For The Night (Cover de Depeche Mode)</li>
-        <li>Secular Haze (Live)</li>
-    </ol>
+    <h2 class="h2">Um mergulho em releituras. Este EP de covers, produzido por Dave Grohl, mostra a versatilidade da banda ao transformar clássicos de artistas como ABBA e Depeche Mode em hinos ocultistas.</h2>
+    
+    <div class="layout-principal">
+        
+        <div class="bloco-midia">
+            <img class="capa" src="If_You_Have_Ghost.jpg" alt="Capa do EP If If You Have Ghost" width="300">
+        </div>
+
+        <div class="bloco-tracklist">
+            <h2>Tracklist</h2>
+            <ol>
+                <li>If You Have Ghosts (Cover de Rocky Erickson)</li>
+                <li>I'm A Marionette (Cover de ABBA)</li>
+                <li>Crucified (Cover de Army of Lovers)</li>
+                <li>Waiting For The Night (Cover de Depeche Mode)</li>
+                <li>Secular Haze (Live)</li>
+            </ol>
+        </div>
+
+        <div class="bloco-pendentes">
+            <h2>Músicas Pendentes</h2>
+            <p id="mensagem"></p>
+            
+            <div class="input-container">
+                <input type="text" id="inputMusica" placeholder="Ex: I'm A Marionette">
+                <button id="btnAdicionar">Adicionar</button>
+            </div>
+
+            <ul id="listaMestas"></ul>
+
+            <button id="btnLimparTudo" class="btn btn--danger-total">Limpar Todas as Músicas</button>
+        </div>
+
+    </div>
 </body>
 </html>
