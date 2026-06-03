@@ -5,24 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skeleta</title>
     <link rel="stylesheet" href="skeleta.css">
+    <script src="ghost.js" defer></script>
 </head>
 <body>
     <h1>Skeleta (2025)</h1>
     <a href="ghost.html" class="btn-voltar">← Voltar</a>
-    <h2>O projeto SKELETÁ representa um mergulho visceral na estética mais crua e esquelética do Ghost. Longe do brilho das arenas de Impera, este lançamento (seja como uma coletânea de raridades, uma nova era visual ou um projeto especial focado na iconografia clássica da banda) resgata o horror gótico que definiu os primeiros rituais do Papa Emeritus I.</h2>
-    <img class="capa" src="Skeletá.jpg" alt="" width="300">
-    <h2>Tracklist</h2>
-    <ol>
-        <li>Peacefield</li>
-        <li>Lachryma</li>
-        <li>Satanized</li>
-        <li>Guiding Lights</li>
-        <li>De Profundis Borealis</li>
-        <li>Cenotaph</li>
-        <li>Missilia Amori</li>
-        <li>Marks Of The Evil One</li>
-        <li>Umbra</li>
-        <li>Excelsis</li>
-    </ol>
+    <h2 class="h2">O projeto SKELETÁ representa um mergulho visceral na estética mais crua e esquelética do Ghost. Longe do brilho das arenas de Impera, este lançamento (seja como uma coletânea de raridades, uma nova era visual ou um projeto especial focado na iconografia clássica da banda) resgata o horror gótico que definiu os primeiros rituais do Papa Emeritus I.</h2>
+    
+    <div class="layout-principal">
+        
+        <div class="bloco-midia">
+            <img class="capa" src="Skeletá.jpg" alt="Capa do Álbum Skeleta" width="300">
+        </div>
+
+        <div class="bloco-tracklist">
+            <h2>Tracklist</h2>
+            <ol>
+                <li>Peacefield</li>
+                <li>Lachryma</li>
+                <li>Satanized</li>
+                <li>Guiding Lights</li>
+                <li>De Profundis Borealis</li>
+                <li>Cenotaph</li>
+                <li>Missilia Amori</li>
+                <li>Marks Of The Evil One</li>
+                <li>Umbra</li>
+                <li>Excelsis</li>
+            </ol>
+        </div>
+
+        <div class="bloco-pendentes">
+            <h2>Músicas Pendentes</h2>
+            <p id="mensagem"></p>
+            
+            <div class="input-container">
+                <input type="text" id="inputMusica" placeholder="Ex: Marks Of The Evil One">
+                <button id="btnAdicionar">Adicionar</button>
+            </div>
+
+            <ul id="listaMestas"></ul>
+
+            <button id="btnLimparTudo" class="btn btn--danger-total">Limpar Todas as Músicas</button>
+        </div>
+
+    </div>
 </body>
 </html>
