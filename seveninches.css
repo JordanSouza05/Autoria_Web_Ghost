@@ -2,12 +2,14 @@
 
 body {
     background-color: black;
+    margin: 0;
+    padding-bottom: 5px;
 }
 
 h1 {
     background: wheat;
     color: blue;
-    padding: 8px 8px;
+    padding: 18px 8px;
     text-align: center;
     font-family: "Bungee", sans-serif;
     font-weight: 400;
@@ -16,26 +18,37 @@ h1 {
 }
 
 .h2 {
+    background-color: black;
     font-family: "Rubik", sans-serif;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: normal;
 }
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: white;
+    margin-top: 0;
 }
 
 ol {
-    text-align: center;
-    list-style-position: inside;
     color: white;
     font-family: "Rubik", sans-serif;
+    padding-left: 20px;
+}
+
+ol li {
+    padding: 6px 0;
 }
 
 .btn-voltar {
     position: absolute;
     top: 15px;
-    left: 20px;   
+    left: 20px;
     background-color: #1a1a1a;
     color: white;
     padding: 10px 15px;
@@ -50,8 +63,8 @@ ol {
 
 .btn-voltar:hover {
     background-color: white;
-    border-color: blue;
-    color: blue;
+    border-color: black;
+    color: darkcyan;
     cursor: pointer;
 }
 
@@ -60,6 +73,132 @@ ol {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-    border: 4px solid #333;
+}
+
+.layout-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.bloco-midia, .bloco-tracklist, .bloco-pendentes {
+    background-color: #111;
+    border: 1px solid #222;
+    padding: 25px;
+    border-radius: 12px;
+    min-width: 280px;
+    flex: 1;
+}
+
+.input-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+#inputMusica {
+    flex: 1;
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 6px;
+    outline: none;
+}
+
+#mensagem {
+    font-family: sans-serif;
+    font-size: 0.85rem;
+    color: #ff4444;
+    margin: -5px 0 10px 0;
+    min-height: 18px;
+}
+
+.btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: 0.2s;
+}
+
+#btnAdicionar {
+    background-color: wheat;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btnAdicionar:hover {
+    background-color: sandybrown;
+}
+
+.btn--success {
+    background-color: #222;
+    color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+.btn--success:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.btn--danger {
+    background-color: #222;
+    color: #ff4444;
+    border: 1px solid #ff4444;
+}
+
+.btn--danger:hover {
+    background-color: #ff4444;
+    color: white;
+}
+
+.btn--danger-total {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #b30000;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.btn--danger-total:hover {
+    background-color: #ff0000;
+}
+
+#listaMestas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.tarefa {
+    background-color: #1a1a1a;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid blue;
+    color: white;
+}
+
+.tarefa__acoes {
+    display: flex;
+    gap: 6px;
 }
