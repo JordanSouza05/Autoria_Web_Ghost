@@ -5,19 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phantomime</title>
     <link rel="stylesheet" href="phanton.css">
+    <script src="ghost.js" defer></script>
 </head>
 <body>
     <h1>Phantomime (2023)</h1>
     <a href="ghost.html" class="btn-voltar">← Voltar</a>
-    <h2>Uma coleção de covers que homenageia as influências do rock e heavy metal da banda, apresentando versões energéticas de nomes como Iron Maiden e Tina Turner.</h2>
-    <img class="capa" src="Phantomime.jpg" alt="" width="300">
-    <h2>Tracklist</h2>
-   <ol>
-        <li>See No Evil (Cover de Television)</li>
-        <li>Jesus He Knows Me (Cover de Genesis)</li>
-        <li>Hanging Around (Cover de The Stranglers)</li>
-        <li>Phantom Of The Opera (Cover de Iron Maiden)</li>
-        <li>We Don't Need Another Hero (Cover de Tina Turner)</li>
-    </ol>
+    <h2 class="h2">Uma coleção de covers que homenageia as influências do rock e heavy metal da banda, apresentando versões energéticas de nomes como Iron Maiden e Tina Turner.</h2>
+    
+    <div class="layout-principal">
+        
+        <div class="bloco-midia">
+            <img class="capa" src="Phantomime.jpg" alt="Capa do EP Phantomime" width="300">
+        </div>
+
+        <div class="bloco-tracklist">
+            <h2>Tracklist</h2>
+            <ol>
+                <li>See No Evil (Cover de Television)</li>
+                <li>Jesus He Knows Me (Cover de Genesis)</li>
+                <li>Hanging Around (Cover de The Stranglers)</li>
+                <li>Phantom Of The Opera (Cover de Iron Maiden)</li>
+                <li>We Don't Need Another Hero (Cover de Tina Turner)</li>
+            </ol>
+        </div>
+
+        <div class="bloco-pendentes">
+            <h2>Músicas Pendentes</h2>
+            <p id="mensagem"></p>
+            
+            <div class="input-container">
+                <input type="text" id="inputMusica" placeholder="Ex: Hanging Around">
+                <button id="btnAdicionar">Adicionar</button>
+            </div>
+
+            <ul id="listaMestas"></ul>
+
+            <button id="btnLimparTudo" class="btn btn--danger-total">Limpar Todas as Músicas</button>
+        </div>
+
+    </div>
 </body>
 </html>
