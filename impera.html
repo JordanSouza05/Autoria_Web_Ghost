@@ -5,26 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impera</title>
     <link rel="stylesheet" href="impera.css">
+    <script src="ghost.js" defer></script>
 </head>
 <body>
     <h1>Impera (2022)</h1>
     <a href="ghost.html" class="btn-voltar">← Voltar</a>
-    <h2>A era do Papa Emeritus IV. Um álbum majestoso que fala sobre a ascensão e queda de impérios, com uma produção polida que remete ao som das grandes bandas de estádio.</h2>
-    <img class="capa" src="Impera.jpg" alt="" width="300">
-    <h2>Tracklist</h2>
-    <ol>
-        <li>Imperium</li>
-        <li>Kaisarion</li>
-        <li>Spillways</li>
-        <li>Call Me Little Sunshine</li>
-        <li>Hunter's Moon</li>
-        <li>Watcher In The Sky</li>
-        <li>Dominion</li>
-        <li>Twenties</li>
-        <li>Darkness At The Heart Of My Love</li>
-        <li>Griftwood</li>
-        <li>Bite Of Passage</li>
-        <li>Respite On The Spitalfields</li>
-    </ol>
+    <h2 class="h2">A era do Papa Emeritus IV. Um álbum majestoso que fala sobre a ascensão e queda de impérios, com uma produção polida que remete ao som das grandes bandas de estádio.</h2>
+    
+    <div class="layout-principal">
+        
+        <div class="bloco-midia">
+            <img class="capa" src="Impera.jpg" alt="Capa do Álbum Impera" width="300">
+        </div>
+
+        <div class="bloco-tracklist">
+            <h2>Tracklist</h2>
+            <ol>
+                <li>Imperium</li>
+                <li>Kaisarion</li>
+                <li>Spillways</li>
+                <li>Call Me Little Sunshine</li>
+                <li>Hunter's Moon</li>
+                <li>Watcher In The Sky</li>
+                <li>Dominion</li>
+                <li>Twenties</li>
+                <li>Darkness At The Heart Of My Love</li>
+                <li>Griftwood</li>
+                <li>Bite Of Passage</li>
+                <li>Respite On The Spitalfields</li>
+            </ol>
+        </div>
+
+        <div class="bloco-pendentes">
+            <h2>Músicas Pendentes</h2>
+            <p id="mensagem"></p>
+            
+            <div class="input-container">
+                <input type="text" id="inputMusica" placeholder="Ex: Griftwood">
+                <button id="btnAdicionar">Adicionar</button>
+            </div>
+
+            <ul id="listaMestas"></ul>
+
+            <button id="btnLimparTudo" class="btn btn--danger-total">Limpar Todas as Músicas</button>
+        </div>
+
+    </div>
 </body>
 </html>
