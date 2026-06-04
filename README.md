@@ -1,1 +1,1 @@
-Este projeto é um site sobre informações da banda sueca de rock Ghost. Projeto da disciplina Eletiva I (Autoria Web).
+Este projeto é um site sobre a banda de rock sueca Ghost. Contendo discografia, formulário, link, informações sobre a banda e seu vocalica. Projeto da disciplina Autoria Web do curso de Análise e Desenvolvimento de Sistemas.
