@@ -63,7 +63,7 @@ btnAdicionar.addEventListener('click', () => {
   btnRemover.classList.add('btn', 'btn--danger');
 
   btnRemover.addEventListener('click', () => {
-    li.remove(); // Tira do HTML
+    li.remove();
 
     const indice = musicasEscutadasArray.indexOf(novaMusicaObjeto);
     if (indice > -1) {
@@ -80,7 +80,6 @@ btnAdicionar.addEventListener('click', () => {
 });
 
 btnLimparTudo.addEventListener('click', () => {
-    // 1. Limpa o HTML da lista na tela (DOM)
     listaMestas.innerHTML = '';
 
     musicasEscutadasArray.length = 0;
